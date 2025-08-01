@@ -1,0 +1,8 @@
+# environments
+.env
+mlenv
+.venv
+.venv
+
+# Python cache
+__pycache__

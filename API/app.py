@@ -939,14 +939,14 @@ def get_dataset_stats():
                 "version": "initial_model",
                 "training_date": datetime.now().isoformat(),
                 "performance": {
-                    "accuracy": 0.89,
+                    "accuracy": 0.91,
                     "precision": 0.87,
-                    "recall": 0.91,
-                    "f1_score": 0.89
+                    "recall": 0.71,
+                    "f1_score": 0.78,
                 },
                 "data_used": {
-                    "fight_videos": 450,
-                    "normal_videos": 550,
+                    "fight_videos": 316,
+                    "normal_videos": 684,
                     "total_videos": 1000
                 }
             }]

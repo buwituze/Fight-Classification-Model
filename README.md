@@ -4,7 +4,7 @@ This is a system that uses Machine Learning to detect fighting scenes in video c
 
 ## Links
 
-- **Demo Video**: https://youtu.be/Xnsuvpdjj7A
+- **Demo Video**: https://youtu.be/BD1qaQbf3eU
 -
 -
 

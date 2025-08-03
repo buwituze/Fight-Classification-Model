@@ -51,6 +51,10 @@ This is a system that uses Machine Learning to detect fighting scenes in video c
 - **Training Management**: Model retraining with progress visualization
 - **Model Monitoring**: Health status and version history
 
+<img width="1347" height="599" alt="Screenshot 2025-08-03 202701" src="https://github.com/user-attachments/assets/c1fdd175-999b-494d-b5b7-5f22ffa93306" />
+
+<img width="1346" height="594" alt="Screenshot 2025-08-03 202605" src="https://github.com/user-attachments/assets/45948abd-0444-4113-ad45-ef3e705fd286" />
+
 ## Architecture
 
 ```
@@ -270,6 +274,12 @@ The dashboard provides comprehensive monitoring:
 
 ### 10 users
 
+<img width="1365" height="646" alt="Screenshot 2025-08-03 184023" src="https://github.com/user-attachments/assets/04ab4fc2-26f9-4a23-9e62-77dcb4da5432" />
+
 ### 50 Users
 
+<img width="1365" height="648" alt="Screenshot 2025-08-03 184651" src="https://github.com/user-attachments/assets/d519a362-494c-4b0d-9dfe-0e834467f5f1" />
+
 ### 100 Users
+
+<img width="1365" height="647" alt="Screenshot 2025-08-03 185208" src="https://github.com/user-attachments/assets/6640c9d7-c4ab-45f6-8666-754577ff55e4" />

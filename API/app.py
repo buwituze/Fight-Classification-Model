@@ -696,11 +696,11 @@ app = FastAPI(
     lifespan=lifespan
 )
 
-# Configure CORS (restrict in production)
+# Configure CORS - Allow all origins for development/deployment
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://127.0.0.1:3000"],  # Restrict origins
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["GET", "POST", "DELETE"],
     allow_headers=["*"],
 )

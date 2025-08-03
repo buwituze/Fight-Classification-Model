@@ -4,7 +4,7 @@ This is a system that uses Machine Learning to detect fighting scenes in video c
 
 ## Links
 
-- **Demo Video**:
+- **Demo Video**: https://youtu.be/Xnsuvpdjj7A
 -
 -
 
@@ -19,6 +19,7 @@ This is a system that uses Machine Learning to detect fighting scenes in video c
   - Filter violent content on platforms and apps
 
 - Research & Analysis
+
   - Behavioral Studies, Sports Analysis (detect bad conduct in sports footage), Monitor patient behavior in facilities
 
 ## Key Features
@@ -85,6 +86,20 @@ node --version
 git clone https://github.com/yourusername/fight-detection-system.git
 cd Fight-Classification-Model
 ```
+
+### 2. Env setup
+
+- Create the virtual env .venv: `python -m venv .venv`
+- Activate the virtual env: `source .venv/bin/activate` or `source .venv/Scripts/activate` if you're using Linux or git bash
+- Create `.env` file in the `frontend/` folder
+- Place this variable in `.env`: NEXT_PUBLIC_API_BASE_URL=
+
+### Dataset Setup
+
+- Unzip the UBI Fights dataset in the dataset folder
+- For retraining, use the prepared trainin_data.zip dataset
+
+##
 
 ### 2. Setup Backend
 

@@ -94,14 +94,14 @@ cd Fight-Classification-Model
 - Create `.env` file in the `frontend/` folder
 - Place this variable in `.env`: NEXT_PUBLIC_API_BASE_URL=
 
-### Dataset Setup
+### 3. Dataset Setup
 
 - Unzip the UBI Fights dataset in the dataset folder
 - For retraining, use the prepared trainin_data.zip dataset
 
 ##
 
-### 2. Setup Backend
+### 4. Setup Backend
 
 ```bash
 # Navigate to API directory
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-### 3. Setup Frontend
+### 5. Setup Frontend
 
 ```bash
 # Navigate to frontend directory
@@ -127,7 +127,7 @@ npm install
 npm run dev
 ```
 
-### 4. Access Application
+### 6. Access Application
 
 - **API Documentation**: http://127.0.0.1:8000/docs
 - **Dashboard**: http://localhost:3000

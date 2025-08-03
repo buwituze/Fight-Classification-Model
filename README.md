@@ -68,9 +68,9 @@ This is a system that uses Machine Learnin to detect fighting scenes in video co
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## What To Have
+## Project Setup
 
-### Prerequisites
+### Versions
 
 ```bash
 # Python 3.8+
@@ -119,7 +119,7 @@ npm run dev
 - **Dashboard**: http://localhost:3000
 - **Health Check**: http://127.0.0.1:8000/health
 
-## 📝 API Usage
+## API Usage
 
 ### Predict Video Content
 
@@ -156,7 +156,7 @@ curl -X POST "http://127.0.0.1:8000/retrain" \
 curl http://127.0.0.1:8000/training-status
 ```
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric    | Score |
 | --------- | ----- |
@@ -171,7 +171,7 @@ curl http://127.0.0.1:8000/training-status
 - **Medium Confidence (60-80%)**: 20% of predictions
 - **Low Confidence (<60%)**: 5% of predictions
 
-## 🔧 Configuration
+## Configuration
 
 ### Supported Video Formats
 
@@ -188,7 +188,7 @@ curl http://127.0.0.1:8000/training-status
 - **Architecture**: 3D CNN with BatchNorm and Dropout
 - **Framework**: TensorFlow 2.x
 
-## 📁 Training Data Format
+## Training Data Format
 
 Prepare your training data as a ZIP file:
 
@@ -206,11 +206,11 @@ training_data.zip
 
 **Requirements:**
 
-- Minimum 10 videos per category
-- Balanced distribution (20-80% fight ratio)
+- Minimum 50 videos per category (100 videos in total)
+- Balanced distribution (40-60% fight ratio)
 - Clear video quality recommended
 
-## 🛠️ Development
+## Development
 
 ### Project Structure
 
@@ -251,3 +251,11 @@ The dashboard provides comprehensive monitoring:
 - **Model Performance History**: Accuracy trends over time
 - **Confidence Analysis**: Prediction reliability metrics
 - **System Health**: API status and model availability
+
+## Flood Request usin Locust Results
+
+### 10 users
+
+50 Users
+
+100 Users

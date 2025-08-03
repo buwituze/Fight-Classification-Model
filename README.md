@@ -1,12 +1,25 @@
 # Fight Classification Project
 
-This is a system that uses Machine Learnin to detect fighting scenes in video content using a 3D Convolutional Neural Network. This project has an ML pipeline that includes ML model, FastAPI backend, and Next.js dashboard.
+This is a system that uses Machine Learning to detect fighting scenes in video content. This project has a pipeline that includes ML model (3D Convolutional Neural Network), FastAPI backend, and Next.js dashboard. The model was trained on video both fighting and normal (no-fight) videos.
 
 ## Links
 
 - **Demo Video**:
 -
 -
+
+## Project Use Cases
+
+- Security & Surveillance
+
+  - CCTV Monitoring, Crowd Control,Prison Security
+
+- Social Media Content Moderation
+
+  - Filter violent content on platforms and apps
+
+- Research & Analysis
+  - Behavioral Studies, Sports Analysis (detect bad conduct in sports footage), Monitor patient behavior in facilities
 
 ## Key Features
 
@@ -17,39 +30,25 @@ This is a system that uses Machine Learnin to detect fighting scenes in video co
 - **High Accuracy**: 91%+ accuracy with precision/recall optimization
 - **Confidence Scoring**: Multi-level confidence analysis (High/Medium/Low)
 
-### FastAPI Backend
+### FastAPI Backend Endpoints
 
-- **Async Processing**: Non-blocking video analysis
-- **Auto-Retraining**: Upload new data to improve model performance
-- **Progress Tracking**: Real-time training progress monitoring
-- **Production Ready**: Health checks, error handling, and logging
+- **POST /health**: Check the health of the API.
+- **POST /model**: Get information about the model, including its version and supported video formats.
+- **POST /predict**: Make a prediction on a given video file.
+- **POST /retrain**: Retrain the model with new data.
+- **GET /training-status**: Get the status of the training process.
+- **DELETE /cancel-training**: Cancel the training process.
+- **GET /analytics/dataset-stats**: Get statistics about the dataset.
+- **POST /predict** : Predict Fight
+- **GET /analytics/confidence-analysis**: Get Confidence Analysis
 
 ### Next.js Dashboard
 
+- **Integration**: connected with the FastAPI endpoints
 - **Real-time Analytics**: Performance metrics and confidence analysis
 - **Video Upload**: Drag-and-drop video prediction interface
 - **Training Management**: Model retraining with progress visualization
 - **Model Monitoring**: Health status and version history
-
-## Project Use Cases
-
-### Security & Surveillance
-
-- **CCTV Monitoring**: Automatically flag violent incidents in surveillance footage
-- **Crowd Control**: Detect fights in public spaces, events, and venues
-- **Prison Security**: Monitor inmate interactions for violence prevention
-
-### Content Moderation
-
-- **Social Media**: Filter violent content on platforms and apps
-- **Streaming Services**: Classify and rate video content automatically
-- **Educational Platforms**: Ensure safe content for students
-
-### Research & Analysis
-
-- **Behavioral Studies**: Analyze aggression patterns in research settings
-- **Sports Analysis**: Detect unsportsmanlike conduct in sports footage
-- **Healthcare**: Monitor patient behavior in psychiatric facilities
 
 ## Architecture
 
@@ -256,6 +255,6 @@ The dashboard provides comprehensive monitoring:
 
 ### 10 users
 
-50 Users
+### 50 Users
 
-100 Users
+### 100 Users

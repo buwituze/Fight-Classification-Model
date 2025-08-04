@@ -100,8 +100,16 @@ cd Fight-Classification-Model
 
 ### 3. Dataset Setup
 
-- Unzip the UBI Fights dataset in the dataset folder
-- For retraining, use the prepared trainin_data.zip dataset
+This project's datasets is reachable through google drive as its too large to push on github or effectively manage with **git lfs**.
+
+- Training dataset:
+  - [Download](https://drive.google.com/drive/folders/1o-fjsFdb_-V0XOxeaOsZ8zfVtFWUvuOD?usp=sharing) training dataset from google drive
+  - Unzip the UBI Fights dataset in the dataset folder
+  - Place the folder in `Notebook/` folder, same location as the model notebook
+- Retraining dataset
+  - [Download](https://drive.google.com/file/d/1a6FZxpsra4nt3Tsv2PskheM8L4lcHQgO/view?usp=sharing) the prepared re-training dataset from google drive
+  - Don't unzip the training_data.zip folder this will make uploading the data to SafetyAI faster (the retraining functions are setup to deal with unzipping folders)
+  - You can place this dataset anywhere, you will upload it into the dashboard later.
 
 ##
 

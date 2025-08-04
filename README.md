@@ -5,8 +5,8 @@ This is a system that uses Machine Learning to detect fighting scenes in video c
 ## Links
 
 - **Demo Video**: https://youtu.be/BD1qaQbf3eU
--
--
+- **Backend Docker Image**: https://hub.docker.com/r/buwituze/fight-classification-api
+- **Frontend Docker Image**: https://hub.docker.com/r/buwituze/fight-classification-frontend
 
 ## Project Use Cases
 
